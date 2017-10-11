@@ -1,160 +1,116 @@
 {
-    "studentsinfo": [
-        {
-                "id": "100",
-                "name": "Adam",
-                "email": "adam@example.com",
-                "address": "House #33, ABC Lane, ABC CITY 06987",
-                "gender" : "male",
-                "phone": {
-                    "mobile": "+1 1234567890",
-                    "home": "00 123456",
-                    "office": "00 321654"
-                }
-        },
-        {
-                "id": "101",
-                "name": "Archbould",
-                "email": "archbould@example.com",
-                "address": "House #33, ABC Lane, ABC CITY 06987",
-                "gender" : "male",
-                "phone": {
-                    "mobile": "+1 1234567890",
-                    "home": "00 123456",
-                    "office": "00 321654"
-                }
-        },
-        {
-                "id": "103",
-                "name": "Barthe",
-                "email": "barthe@example.com",
-                "address": "House #33, ABC Lane, ABC CITY 06987",
-                "gender" : "male",
-                "phone": {
-                    "mobile": "+1 1234567890",
-                    "home": "00 123456",
-                    "office": "00 321654"
-                }
-        },
-        {
-                "id": "104",
-                "name": "Deane",
-                "email": "deane@example.com",
-                "address": "House #33, ABC Lane, ABC CITY 06987",
-                "gender" : "male",
-                "phone": {
-                    "mobile": "+1 1234567890",
-                    "home": "00 123456",
-                    "office": "00 123456"
-                }
-        },
-        {
-                "id": "105",
-                "name": "Gerard",
-                "email": "gerard@example.com",
-                "address": "House #33, ABC Lane, ABC CITY 06987",
-                "gender" : "female",
-                "phone": {
-                    "mobile": "+1 1234567890",
-                    "home": "00 123456",
-                    "office": "00 123456"
-                }
-        },
-        {
-                "id": "106",
-                "name": "Janet",
-                "email": "janet@example.com",
-                "address": "House #33, ABC Lane, ABC CITY 06987",
-                "gender" : "female",
-                "phone": {
-                    "mobile": "+1 1234567890",
-                    "home": "00 123456",
-                    "office": "00 123456"
-                }
-        },
-        {
-                "id": "107",
-                "name": "Jasper",
-                "email": "jasper@example.com",
-                "address": "House #33, ABC Lane, ABC CITY 06987",
-                "gender" : "male",
-                "phone": {
-                    "mobile": "+1 1234567890",
-                    "home": "00 123456",
-                    "office": "00 123456"
-                }
-        },
-        {
-                "id": "108",
-                "name": "Juliane",
-                "email": "juliane@example.com",
-                "address": "House #33, ABC Lane, ABC CITY 06987",
-                "gender" : "female",
-                "phone": {
-                    "mobile": "+1 1234567890",
-                    "home": "00 123456",
-                    "office": "00 123456"
-                }
-        },
-        {
-                "id": "109",
-                "name": "Sampson",
-                "email": "sampson@example.com",
-                "address": "House #33, ABC Lane, ABC CITY 06987",
-                "gender" : "male",
-                "phone": {
-                    "mobile": "+1 1234567890",
-                    "home": "00 123456",
-                    "office": "00 123456"
-                }
-        },
-        {
-                "id": "110",
-                "name": "Oswyne",
-                "email": "oswyne@hotmail.com",
-                "address": "House #33, ABC Lane, ABC CITY 06987",
-                "gender" : "male",
-                "phone": {
-                    "mobile": "+1 1234567890",
-                    "home": "00 123456",
-                    "office": "00 123456"
-                }
-        },
-        {
-                "id": "111",
-                "name": "Walter",
-                "email": "walter@live.com",
-                "address": "House #33, ABC Lane, ABC CITY 06987",
-                "gender" : "male",
-                "phone": {
-                    "mobile": "+1 1234567890",
-                    "home": "00 123456",
-                    "office": "00 123456"
-                }
-        },
-        {
-                "id": "112",
-                "name": "Peires",
-                "email": "peires@outlook.com",
-                "address": "House #33, ABC Lane, ABC CITY 06987",
-                "gender" : "male",
-                "phone": {
-                    "mobile": "+1 1234567890",
-                    "home": "00 123456",
-                    "office": "00 123456"
-                }
-        },
-        {
-                "id": "113",
-                "name": "Mabell",
-                "email": "mabell@example.com",
-                "address": "House #33, ABC Lane, ABC CITY 06987",
-                "gender" : "female",
-                "phone": {
-                    "mobile": "+1 1234567890",
-                    "home": "00 123456",
-                    "office": "00 123456"
-                }
-        }
-    ]
+ "course": [
+   {
+      "id": "0",
+      "course_name": "1코스",
+      "travel": {
+                  "one_way": [
+                          {
+                                  "id": "0",
+                                  "start_point": "마두역 1번 출구",
+                                  "end_point": [
+                                  {
+                                          "id": "0",
+                                          "name": "팔당역 1번 출구",
+                                          "start_time": "08:00",
+                                          "charge": "25,000원"
+                                  }
+                              ] 
+                          }            
+                      ],
+                  "round_trip": [
+                          {
+                                  "id": "0",
+                                  "start_point": "마두역 1번 출구",
+                                  "end_point": [
+                                  {
+                                          "id": "0",
+                                          "name": "팔당역 1번 출구",
+                                          "start_time": "20:30",
+                                          "charge": "50,000원" 
+                                  }
+                              ] 
+                          }
+                          
+                      ]
+                    }
+                
+        
+   },
+{
+      "id": "1",
+      "course_name": "2코스",
+      "travel": {
+                  "one_way": [
+                          {
+                                  "id": "0",
+                                  "start_point": "팔당역 1번 출구",
+                                  "end_point": [
+                                  {
+                                          "id": "0",
+                                          "name": "양주시청",
+                                          "start_time": "10:00",
+                                          "charge": "20,000원"
+                                  }
+                              ] 
+                          }            
+                      ],
+                  "round_trip": [
+                          {
+                                  "id": "0",
+                                  "start_point": "팔당역 1번 출구",
+                                  "end_point": [
+                                  {
+                                          "id": "0",
+                                          "name": "양주시청",
+                                          "start_time": "19:00",
+                                          "charge": "40,000원" 
+                                  }
+                              ] 
+                          }
+                          
+                      ]
+                    }
+                
+        
+   },
+{
+      "id": "2",
+      "course_name": "3코스",
+      "travel": {
+                  "one_way": [
+                          {
+                                  "id": "0",
+                                  "start_point": "장기동 주민센터",
+                                  "end_point": [
+                                  {
+                                          "id": "0",
+                                          "name": "능곡역",
+                                          "start_time": "06:30",
+                                          "charge": "20,000원"
+                                  }
+                              ] 
+                          }            
+                      ],
+                  "round_trip": [
+                          {
+                                  "id": "0",
+                                  "start_point": "장기동 주민센터",
+                                  "end_point": [
+                                  {
+                                          "id": "0",
+                                          "name": "능곡역",
+                                          "start_time": "22:30",
+                                          "charge": "20,000원" 
+                                  }
+                              ] 
+                          }
+                          
+                      ]
+                    }
+                
+        
+   }
+
+   ]
 }
