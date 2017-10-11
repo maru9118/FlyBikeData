@@ -94,7 +94,7 @@
                       ],
                   "round_trip": [
                           {
-                                  "id": "0",
+                                  "id": 0,
                                   "start_point": "장기동 주민센터",
                                   "end_point": [
                                   {
